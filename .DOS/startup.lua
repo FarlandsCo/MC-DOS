@@ -24,7 +24,7 @@ if user == username then
        term.clear()
        term.setCursorPos(1, 1)
        print("Logged in as", username)
-       shell.run("Doors/autorun.lua")
+       shell.run(".DOS/autorun.lua")
     else
         print("Wrong Username/Password")
         sleep(1)
