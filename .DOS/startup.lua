@@ -12,10 +12,10 @@ print("Username:", user)
 write("Password: ")
 local pass = read("*")
 
-usern = fs.open("Doors/Username.login", "r")
+usern = fs.open(".DOS/Username.login", "r")
 local username = usern.readAll()
 usern.close()
-passw = fs.open("Doors/Password.login", "r")
+passw = fs.open(".DOS/Password.login", "r")
 local password = passw.readAll()
 passw.close()
 
