@@ -7,7 +7,7 @@ if fs.exists("/.DOS") == true then
   if d == "yes" or "y" then
     shell.run("set shell.allow_disk_startup false")
     shell.run("set shell.autocomplete false")
-    shell.run("gitget FarlandsCo MC-DOS)
+    shell.run("gitget FarlandsCo MC-DOS")
     Autorun.close()
     term.clear()
     term.setCursorPos(1, 1)
