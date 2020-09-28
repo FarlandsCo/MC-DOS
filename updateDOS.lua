@@ -1,3 +1,3 @@
-fs.delete(".DOS/startup.lua")
-fs.delete("startup.lua")
-shell.run("gitget FarlandsCo MC-DOS")
+shell.run("rm /.DOS/startup.lua")
+shell.run("rm /.DOS/startup.lua")
+shell.run("gitget MC-DOS MC-DOS")
